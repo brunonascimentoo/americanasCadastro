@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial,Helvetica,Verdana,sans-serif;
+    font-size: 14px;
+    line-height: 1.42857;
+}
+
+header {
+    background-color: #f80032;
+    height: 85px;
+    display: flex;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+}
+
+p {
+    color: #666;
+    text-align: center;
+    font-size: 16px;
+}
+
+img {
+    width: 39px;
+    height: 38px;
+}
+
+
+.logo {
+    margin: 1.7% 0 0 8%;
+}
+
+.traco1 {
+    background-color: #fff;
+    width: 133px;
+    height: 4px;
+
+}
+
+.traco2 {
+    background-color: #fff;
+    width: 133px;
+    height: 4px;
+
+}
+
+.titulo-entrar {
+    color: #666;
+    font-size: 28px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.caixa-ico-spa {
+    display: flex;
+    margin-top: 43px;
+}
+
+
+
+.input-form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+    color: #666;
+}
+
+
+#email {
+    width: 360px;
+    height: 43px;
+    text-align: left;
+    padding: 10px;
+    margin-top: 5px;
+
+}
+
+#email::placeholder {
+    color: #ccc;
+    
+}
+
+
+#senha {
+    width: 360px;
+    height: 43px;
+    text-align: left;
+    padding: 10px;
+    margin-top: 5px;
+ 
+}
+
+.input-entrar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.entrar-span {
+    display: flex;
+    align-items: end;
+    flex-direction: row;
+}
+
+#login-button {
+    border-radius: 3px;
+    box-shadow: 0 2px 6px rgb(0 0 0 / 20%);
+    width: 100%;
+    color: #fff;
+    background: #e60014;
+    border-width: 0;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    font-weight: 700;
+    cursor: pointer;
+    padding: 10px;
+    overflow: visible;
+    margin-top: 20px;
+
+}
+
+.cadastrar {
+    text-align: center;
+    margin: 2rem 0;
+    font-size: 14px;
+}
+
+.politica-priv {
+    text-align: center;
+    font-size: 14px;
+}
+
+#politica {
+    text-decoration: none;
+    color: inherit;
+}

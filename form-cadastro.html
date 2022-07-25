@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="shortcut icon" href="assets/img/favicon.ico" type="image/x-icon" />
+    <title>Clone da Página de Cadastro Americanas</title>
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+
+            <img src="assets/img/logo.svg" alt="">
+            <!-- <div class="traco1"></div>
+            <h1>americanas</h1>
+            <div class="traco2"></div> -->
+        </div>
+
+    </header>
+
+    <section>
+
+        <div class="container">
+
+            <h2>criar seu cadastro</h2>
+            <p class="p-inicio">veja seus pedidos de forma fácil, compre mais rápido e tenha uma experiência
+                personalizada :)</p>
+            <p class="campo-obrigatorio"><span class="nome-input">*</span>campos obrigatórios</p>
+
+            <br><br>
+        </div>
+        <div class="formulario">
+            <form method="post" action="">
+
+                <label for="texto">
+                    <p class="nome-titulo "><span class="nome-input">*</span>nome completo</p>
+                </label>
+                <input class="nome-completo" type="text" name="texto" id="texto">
+
+                <label for="genero">
+                    <p class="titulo-gen"><span class="nome-input">*</span>gênero</p>
+                    <div><span class="span-genero">pra gente te conhecer um pouquinho melhor :)</span></div>
+
+                </label>
+
+                <div class="gen-fmn">
+                    <input class="nome-subt-fmn" type="radio" name="sexo" id="genero"> <span>feminino</span>
+                    <input class="nome-subt-fmn" type="radio" name="sexo" id="genero"> <span>masculino</span>
+                    <input class="nome-subt-fmn" type="radio" name="sexo" id="genero"> <span>não informar</span> 
+                </div>
+
+                <p class="nome-titulo data-nascimento"><span class="nome-input">*</span>data de nascimento</p>
+                <p class="nome-subt">necessário pra identificar a maioridade, no formato DD/MM/AAAA</p>
+
+                <input class="input-data" type="tel" required placeholder="__/__/____" maxlength="10" mask="99/99/9999" name="aniversario">
+
+                <label for="cpf">
+                    <p class="nome-titulo p-cpf"><span class="nome-input">*</span>CPF</p>
+                </label>
+                <span class="nome-subt nfc-cpf">necessário pra emissão das Notas Fiscais</span>
+                <input class="input-cpf" type="tel" name="cpf" id="cpf" maxlength="14" autocorrect="off" placeholder="___.___.___-__"
+                    required>
+
+                <br>
+                <br>
+                <a class="nome-subt" href="#">é pessoa jurídica? conheça a americanas empresas</a>
+
+                <br>
+                <br>
+
+                <label for="">
+                    <p class="nome-titulo"> <span class="nome-input">*</span>telefone</p>
+                    <span class="span-tel">caso a gente precise entrar em contato sobre seus pedidos</span>
+                    
+                    <br>
+                    <br>
+
+                    <input class="input-tel" type="tel" name="telefone" placeholder="(__)_____-____" required maxlength="14"
+                        autocomplete="off">
+                </label>
+                <br>
+                <br>
+
+                <label class="nome-titulo" for="check">
+                    <input type="checkbox" name="notificacao" id="check">
+                    receber notificações por whatsapp
+                </label>
+
+                <br>
+                <br>
+
+                <label for="email">
+                    <p class="nome-titulo"><span class="nome-input">*</span>e-mail</p>
+                    <input class="input-email" type="email" id="email">
+                </label>
+
+                <br>
+                <br>
+                
+                <label class="nome-titulo" for="promo">
+                    <input type="checkbox" name="promocao" id="promo" checked> receber e-mails promocionais
+                </label>
+                
+                <br>
+                <br>
+
+                <label for="senha">
+                    <p class="nome-titulo"><span class="nome-input">*</span>senha</p>
+                    <p class="nome-subt">a senha precisa ter entre 6 e 20 caracteres</p>
+                    <input class="input-senha" type="password" name="senha" id="senha" required>
+                </label>
+
+                <br><br>
+
+
+                <label class="nome-titulo" for="compartilha">
+                    <input type="checkbox" name="compartilhar" id="compartilha">compartilhar meus dados com parceiros
+                    para ter <br> conteúdos personalizados, veja como funciona.
+                </label>
+                
+                <br>
+                <br>
+                
+                <button  type="submit">criar seu cadastro</button>
+                <br>
+                <p class="nome-titulo texto-final" >Não se preocupe, nosso site é seguro! Ao criar o seu cadastro, <br> você concorda com a nossa <a class="politica-entrar" href="politica-privacidade.html">Política de Privacidade</a></p>
+
+                <br>
+                <br>
+
+                <p class="nome-titulo entrar">já tem cadastro? <a class="politica-entrar" href="login.html">entrar</a></p>
+            </form>
+        </div>
+
+
+
+
+
+    </section>
+
+</body>
+
+</html>
